@@ -1,0 +1,28 @@
+{
+  "name": "suger",
+  "version": "1.0.0",
+  "description": "my life",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js config-local.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hi-Rube/suger.git"
+  },
+  "author": "Rube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hi-Rube/suger/issues"
+  },
+  "homepage": "https://github.com/Hi-Rube/suger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "sequelize": "^4.37.6",
+    "sqlite3": "^4.0.0"
+  }
+}
